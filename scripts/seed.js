@@ -29,7 +29,7 @@ async function seed() {
   } catch (err) {
     console.log(`Failed to remove ${tmpPath}`);
   }
-
+  console.log('test')
   try {
     await fse.emptyDir(uploadPath);
   } catch (err) {
